@@ -6,8 +6,5 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
   devServer: {
     contentBase: "./dist",
-    historyApiFallback: {
-      rewrites: [{ from: /^\/*/, to: "/index.html" }],
-    },
   },
 });
