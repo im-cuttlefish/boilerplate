@@ -34,7 +34,7 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin()],
   },
   output: {
-    filename: ".bundle.js",
+    filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [
